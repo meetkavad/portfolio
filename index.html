@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="setup.css">
+    <title>Meet Kavad</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="images/logo.png" alt="logo-image">
+            <p class="h5 bold">Meet</p>
+        </div>
+        <nav id="my-nav">
+          <a href="#about" class=" h5 semibold">About</a>
+          <a href="#skills" class=" h5 semibold">Skills</a>
+          <a href="#projects" class=" h5 semibold">Project</a>
+          <a href="#contacts" class=" h5 semibold">Contact</a>
+        </nav>
+        <div>
+            <a href="resume.pdf" download="resume.pdf" target="_blank" class="h5 semibold resume-button">Resume<img src="images/download.png" alt="download-image" class="download-image"/></a>
+        </div>
+        <a href="javascript:void(0);" class="hamburger-menu-icon" onclick="toggleBar()">
+            <img class="menu-image"src="images/menu.png" alt="hamburger-menu-icon">
+        </a>
+        
+    </header>
+
+<!--  navbar for mobile screen -->
+
+    <div id="my-mobile-nav">
+        <a href="#about" class=" h5 semibold">About</a>
+        <a href="#skills" class=" h5 semibold">Skills</a>
+        <a href="#projects" class=" h5 semibold">Project</a>
+        <a href="#contacts" class=" h5 semibold">Contact</a>
+        <a href="resume.pdf" download="resume.pdf" target="_blank" class="h5 semibold">Resume</a>
+
+    </div>
+
+    <script>
+        function toggleBar() {
+          var x = document.getElementById("my-mobile-nav");
+          if (x.style.display === "block") {
+            x.style.display = "none";
+          } else {
+            x.style.display = "block";
+          }
+        }
+    </script>
+
+<!-- --------- -->
+
+
+    <section class="poster" id="poster">
+        <div class="poster-image p2 regular">
+            <img src="images/man.png" alt="man-image" class="man-image">
+        </div>
+
+        <div class="poster-content">
+            <div class="poster-heading">
+                <p class="displaytext regular">Hello I'am <span class="extrabold">Meet Kavad.</span></p>
+                <p class="displaytext extrabold">Full Stack <span class="outlined">Developer</span></p>
+                <p class="displaytext regular">Based In <span class="extrabold">India.</span></p>
+            </div>
+            <div class="poster-text">
+               <p class="p2 regular"> Passionate and detail-oriented computer science student with a keen interest in solving real-world problems through innovative coding solutions. Eager to leverage my technical skills and enthusiasm for continuous learning in a dynamic and collaborative environment. </p>
+            </div>
+        </div>
+      
+        <div class="poster-contact">
+            <a href="https://www.linkedin.com/in/meet-kavad-375b06229" target="_blank"><img src="images/linkedin.png" alt="linkedin-image"></a>
+            <a href="https://github.com/meetkavad/" target="_blank"><img src="images/github.png" alt="reddit-image"></a>
+            <a href="https://leetcode.com/u/user7921tD/" target="_blank"><img src="images/leetcode.png" alt="leetcode-image"></a>
+            <a href="https://www.instagram.com/meet_kavad/" target="_blank"><img src="images/instagram.png" alt="instagram-image"></a>
+        </div>
+    </section>
+
+
+    <section class="skills" id="skills">
+            <p class="heading regular displaytext">My <span class="extrabold">Skills</span></p>
+        <div class="skills-container h5 bold">
+            <div class="a-skill"> <img src="images/python.png" alt="python-image"> <p>Python</p> </div>
+            <div class="a-skill"> <img src="images/js.png" alt="js-image"> <p>Javascript</p></div>
+            <div class="a-skill"> <img src="images/c++.png" alt="c++-image"> <p>c++</p></div>
+            <div class="a-skill"> <img src="images/git.png" alt="git-image"> <p>git</p></div>
+            <div class="a-skill"> <img src="images/mongodb.png" alt="mongodb-image"> <p>MongoDB</p></div>
+            <div class="a-skill"> <img src="images/reactjs.png" alt="react-image"> <p>react.js</p></div>
+            <div class="a-skill"> <img src="images/nodejs.png" alt="nodejs-image"> <p>node.js</p></div>
+            <div class="a-skill"> <img src="images/sql.png" alt="sql-image"> <p>SQL</p></div>
+            <div class="a-skill"> <img src="images/linux.png" alt="linux-image"> <p>linux</p></div>
+            <div class="a-skill sk-learn-image"> <img src="images/scikitlearn.png" alt="sk-image"> <p>Scikit learn</p></div>
+        </div>
+    </section>
+
+
+    <section class="experience-background" id="experience">
+        <div class="experience">
+            
+            <div class="experience-heading">
+                <p class="heading regular displaytext">My <span class="extrabold">Experience</span></p>
+            </div>
+
+            <div class="experience-container">
+                <div class="an-experience latest-experience">
+                    <div class="an-experience-company semibold">
+                        <div class="company-container">
+                            <img src="images/gradeup.png" alt="gradeup-image" class="gradeup-image">
+                            <p class="company-name h4">Subject Matter Expert at Gradeup Assignments</p>
+                        </div>
+                        <p class="job-duration h6">May 2024 - Present</p>
+                    </div>
+                    <div class="an-experience-text p2 regular">
+                        <p>
+                            At Gradeup Assignments, I completed assignments related to my domain i.e. computer science, provided by the company, applying my knowledge in software engineering, computer networks, DBMS, and OOP. I achieved a 95% satisfaction rate from the QA team and improved clarity by 40% through thorough documentation, research, and analysis, ensuring 100% accuracy in references.
+                        </p>
+                    </div>
+                </div>
+              
+                
+            </div>
+        </div>
+
+    </section>
+    
+    <section class="about" id="about">
+            <img src="images/about.png" alt="man-image">
+            <div class="about-text">
+                <p class="displaytext regular about-heading">About <span class="extrabold">Me</span></p>
+                <div class="about-text-para regular p2">
+                    <p>I am a passionate Computer Science and Engineering student, currently pursuing B.Tech in CSE at IIIT Surat (Refer my Resume to know more about my education). I am fascinated by web development, machine learning, and computer vision, always eager to explore new technologies and create innovative solutions. Specializing in full-stack development with React.js and Node.js, I am enthusiastic about bringing digital products to life with clear, readable, and performant code.</p>
+                    <p>Although I couldn't secure a place in IIT through JEE Advanced, I have set my sights on excelling in the software industry to make meaningful contributions to the world of computer science and support my family financially.</p>
+                    <p> My programming journey began in 2022 when I started my first year in college with C language, which laid a strong foundation for my coding skills. Driven by my desire to develop useful and enjoyable projects, I created a terminal maze game with over 1000 lines of code during my first semester. Afterwards I delved into web development and am currently exploring deep learning and machine learning.</p>
+                </div>
+
+            </div>
+    </section>
+
+    <section class="project-background" id="projects">
+        <div class="projects">
+            <div class="project-heading displaytext regular">My <span class="extrabold">Projects</span></div>
+            <div class="project-container">
+                <div class="a-project">
+                    <img src="images/project1.png" alt="project1-image" class="project-image">
+                    <div class="project-content">
+                        <p class="project-number displaytext extrabold">01</p>
+                        <p class="a-project-heading h2 bold">Spot-It</p>
+                        <p class="project-text p2 regular">Spot-It is a web application developed after noticing students posting lost and found items in WhatsApp groups. I designed the frontend and created 10+ APIs for user registration, posts, and notifications using React.js, Node.js, Express.js, and MongoDB.
+
+                        </p>
+                        <a href="https://github.com/meetkavad/spot-it" class="project-link" target="_blank" ><img src="images/redirect.png" alt="redirect-image" class="redirect-image"></a>
+                     </div> 
+                </div>
+
+                <div class="a-project second-project-div">
+                    <div class="project-content  second-project-content">
+                        <p class="project-number displaytext extrabold">02</p>
+                        <p class="a-project-heading h2 bold">Analyx</p>
+                        <p class="project-text p2 regular">Analyx is a WhatsApp chat analyzer developed to gain insights from personal chat data. I used Google Colab to create visualizations like word clouds, timelines, heatmaps, and activity maps, utilizing Python, Pandas, Seaborn, and Streamlit.</p>
+                        <a href="https://github.com/meetkavad/Analyx" class="project-link" target="_blank"><img src="images/redirect.png" alt="redirect-image" class="redirect-image" ></a>
+                    </div> 
+                    <img src="images/project2.png" alt="project2-image" class="project-image">
+
+                </div>
+
+                <div class="a-project">
+                    <img src="images/project3.png" alt="project3-image" class="project-image">
+                    <div class="project-content">
+                        <p class="project-number displaytext extrabold">03</p>
+                        <p class="a-project-heading h2 bold">WealthView</p>
+                        <p class="project-text p2 regular">WealthView is a personalized financial planner and management application that tracks income, expenses, goal planning, and quizzes, providing a comprehensive financial tracking solution. I developed the backend, handling data management and integration to support these features.</p>
+                        <a href="https://github.com/meetkavad/Wealth-View" class="project-link" target="_blank"><img src="images/redirect.png" alt="redirect-image" class="redirect-image"></a>
+                    </div>
+                </div>
+               
+            </div>
+        </div>
+
+    </section>
+
+    <section class="contacts" id="contacts">
+        <div class="contact-form">
+            <form action="mailto:meetkavad10@gmail.com" class="contact-form" id="contact-form" method="post" enctype="text/plain">
+                <input type="text" name="" id="" placeholder="Your Name">
+                <input type="email" placeholder="Email">
+                <input type="text" placeholder="Your Website (if exists)">
+                <textarea name="" id="" rows="5" charswidth="23" placeholder="How can i help?"></textarea>
+            </form>
+            <div class="contact-links">
+                <button type="submit" class="contact-button h5 semibold" form="contact-form" >Get in Touch</button>
+                <div class="contact-images">
+                    <a href="https://www.linkedin.com/in/meet-kavad-375b06229" target="_blank"><img src="images/linkedin.png" alt="linkedin-image"></a>
+                    <a href="https://github.com/meetkavad/" target="_blank"><img src="images/github.png" alt="reddit-image"></a>
+                    <a href="https://leetcode.com/u/user7921tD/" target="_blank"><img src="images/leetcode.png" alt="leetcode-image"></a>
+                    <a href="https://www.instagram.com/meet_kavad/" target="_blank"><img src="images/instagram.png" alt="instagram-image"></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="contact-text">
+            <p class="displaytext extrabold contact-heading">Let's <span class="outlined">talk</span> for</p>
+            <p class="displaytext extrabold contact-heading">Something Special</p>
+            <p class="p2 regular" style="color: #71717A;">I like to know new people, new stories and develop different point of views. Reach out to talk something geeky, something programmy..</p>
+            <p class="h5 extrabold gmail"> <img src="images/email.png" alt="email-image">meetkavad10@gmail.com</p>
+            <p class=" h5 extrabold phone-number"> <img src="images/whatsapp.png" alt="whatsapp-image">+91 8780168799</p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-logo">
+            <img src="images/white-logo.png" alt="logo-image">
+            <p class="footer-name">Meet Kavad</p>
+        </div>
+        <div class="footer-right">
+            <p>@2024 Personal</p>
+            <p>All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>

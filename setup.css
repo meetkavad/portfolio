@@ -1,0 +1,66 @@
+*{
+    scroll-behavior: smooth;
+    /* box-sizing: border-box; */
+}
+
+body{
+    font-family: 'Sora', sans-serif;
+    margin: 0px ;
+}
+body::-webkit-scrollbar {
+    display: none;
+}
+
+.h5{
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.h4{
+    font-size: 24px;
+    line-height: 28px;
+}
+.h3{
+    font-size: 28px;
+    line-height: 32px;
+}
+.h2{
+    font-size: 32px;
+    line-height: 40px;
+}
+
+.displaytext{
+    font-size: 48px;
+    line-height: 56px;
+    margin: 20px 0px;
+}
+
+.displaytextm{
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.p2{
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.outlined {
+    color: white;
+    text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
+    letter-spacing: 2px;
+    margin: 0px 5px;
+}
+
+.regular{
+    font-weight: 300;
+}
+.semibold{
+    font-weight: 600;
+}
+.bold{
+    font-weight: 700;
+}
+.extrabold{
+    font-weight: 800;
+}
