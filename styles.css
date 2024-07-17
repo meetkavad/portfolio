@@ -618,14 +618,13 @@ textarea{
 .phone-number{
     display: flex;
     align-items: center;
-    gap: 1vw;
+    gap: 2vw;
 }
 .gmail{
     margin-top: 30px;
-
     display: flex;
     align-items: center;
-    gap: 1.5vw;
+    gap: 2vw;
 }
 
 .phone-number img{
