@@ -528,9 +528,9 @@ nav a{
         margin-left: 0px;
         margin-right: 0px;
     }
-    /*.second-project-div{
-        flex-direction: column-reverse;
-    }*/
+    .second-project-div{
+        flex-direction: column;
+    }
     .a-project-heading {
         margin-top: 0px;
     }
