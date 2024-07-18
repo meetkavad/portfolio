@@ -513,7 +513,7 @@ nav a{
     }
     .a-project {
         display: flex;
-        flex-direction: column-reverse;
+        flex-direction: column;
         gap: 16px;
         align-items: center;
     }
@@ -529,7 +529,7 @@ nav a{
         margin-right: 0px;
     }
     .second-project-div{
-        flex-direction: column;
+        flex-direction: column-reverse;
     }
     .a-project-heading {
         margin-top: 0px;
