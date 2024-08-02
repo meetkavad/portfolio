@@ -331,12 +331,18 @@ nav a{
     display: flex;
     flex-direction: row;
     align-items: center;
+    
 }
 
 
 .gradeup-image{
     height: 30px;
     width: 66px;
+}
+
+.gdsc-image{
+    height: 50px;
+    width: 60px;
 }
 
 
