@@ -160,6 +160,7 @@ nav a{
         overflow: hidden;
 
     }
+
     .poster-image{
         display: flex;
         position: static;
@@ -186,6 +187,9 @@ nav a{
     }
     .poster-text{
         margin-right: 0px;
+    }
+    .outlined{
+    text-shadow: -1.5px -1.5px 0 #000, 1.5px -1.5px 0 #000, -1.5px 1.5px 0 #000, 1.5px 1.5px 0 #000 !important;
     }
     .poster-contact{
         position: static;
@@ -217,6 +221,12 @@ nav a{
 
 
 /* ---------------------------------------------------------SKILLS--------------------------------------------------------------------------------------- */
+
+/* a {
+color: black;
+text-decoration: none;
+} */
+
 .skills{
     margin: 60px 112px;
     text-align: center;
@@ -239,7 +249,14 @@ nav a{
     border: 2px solid black;
     text-align: center;
     border-radius: 4px;
+    cursor: pointer;
+    transition: ease 1s;
 }
+
+.a-skill:hover {
+    translate: 0px -15px ;
+}
+
 
 .a-skill img{
     padding: 37px 24px;
@@ -691,7 +708,9 @@ textarea{
         height: 20px;
         width: 20px;
     }
-    
+        .outlined{
+    text-shadow: -1.5px -1.5px 0 #000, 1.5px -1.5px 0 #000, -1.5px 1.5px 0 #000, 1.5px 1.5px 0 #000 !important;
+    }
 }
 
 /* --------------------------------------------------------FOOTER---------------------------------------------------------------------------------------- */
