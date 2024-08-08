@@ -222,11 +222,6 @@ nav a{
 
 /* ---------------------------------------------------------SKILLS--------------------------------------------------------------------------------------- */
 
-/* a {
-color: black;
-text-decoration: none;
-} */
-
 .skills{
     margin: 60px 112px;
     text-align: center;
@@ -250,11 +245,11 @@ text-decoration: none;
     text-align: center;
     border-radius: 4px;
     cursor: pointer;
-    transition: ease 1s;
+    transition: ease 0.5s;
 }
 
 .a-skill:hover {
-    translate: 0px -15px ;
+    transform: translateY(-10px) ;
 }
 
 
