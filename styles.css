@@ -329,7 +329,7 @@ nav a:hover{
 
 .experience-heading{
     text-align: center;
-    padding-top:10px;
+    padding-top: 10px;
 }
 
 .experience-container{
@@ -368,7 +368,17 @@ nav a:hover{
     
 }
 
+.iiit-image{
+    height: 40px;
+    width: 50px;
+    border-radius: 1px;
+}
 
+.banao-image{
+    height: 30px;
+    width: 81px;
+    margin-right: -10px;
+}
 .gradeup-image{
     height: 30px;
     width: 66px;
@@ -377,7 +387,6 @@ nav a:hover{
     height: 50px;
     width: 60px;
 }
-
 
 .company-name{
     margin-left: 30px;
