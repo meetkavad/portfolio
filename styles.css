@@ -373,6 +373,11 @@ nav a:hover{
     width: 50px;
     border-radius: 1px;
 }
+.atg-image{
+    height: 40px;
+    width: 40px;
+    border-radius: 1px;
+}
 
 .banao-image{
     height: 30px;
