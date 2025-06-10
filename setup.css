@@ -51,10 +51,29 @@ body::-webkit-scrollbar {
 }
 
 .outlined {
-    color: white;
-    text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
-    letter-spacing: 2px;
-    margin: 0px 5px;
+  display: inline-block;
+  color: white;
+  position: relative;
+  text-shadow: -2px -2px 0 #000, 2px -2px 0 #000,
+               -2px 2px 0 #000, 2px 2px 0 #000;
+  letter-spacing: 2px;
+}
+
+/* underline effect */
+.outlined::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 0;
+  height: 2px;
+  background-color: #000;
+  transform: translateX(-50%);
+  transition: width 0.4s ease;
+}
+
+.outlined:hover::after {
+  width: 100%;
 }
 
 .regular{
