@@ -380,6 +380,12 @@ nav a:hover{
     border-radius: 1px;
 }
 
+.bodhiverse-image{
+    height: 50px ;
+    width: 50px ;
+    border-radius: 1px;
+}
+
 .banao-image{
     height: 30px;
     width: 81px;
