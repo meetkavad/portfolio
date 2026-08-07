@@ -385,7 +385,11 @@ nav a:hover{
     width: 50px ;
     border-radius: 1px;
 }
-
+.oracle-image{
+    height: 80px ;
+    width: 100px ;
+    border-radius: 1px;
+}
 .banao-image{
     height: 30px;
     width: 81px;
